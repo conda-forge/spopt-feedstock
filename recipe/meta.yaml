@@ -1,5 +1,5 @@
 {% set name = "spopt" %}
-{% set version = "0.0.5" %}
+{% set version = "0.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8bd99cb734302e2393235b59a379a8353a1bec728d7222fd6e98adfbe4a61dac
+  sha256: 7a8dff0abc72e6f1041940aa29c018389245010be6bbb185e02d3b47d5dd61be
 
 build:
   noarch: python
@@ -28,7 +28,7 @@ requirements:
     - pulp
     - scikit-learn >=0.22
     - scipy >=0.11
-    
+
 test:
   imports:
     - {{ name }}
