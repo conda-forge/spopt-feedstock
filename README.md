@@ -123,4 +123,5 @@ Feedstock Maintainers
 
 * [@jGaboardi](https://github.com/jGaboardi/)
 * [@knaaptime](https://github.com/knaaptime/)
+* [@xf37](https://github.com/xf37/)
 
