@@ -122,6 +122,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@gegen07](https://github.com/gegen07/)
 * [@jGaboardi](https://github.com/jGaboardi/)
 * [@knaaptime](https://github.com/knaaptime/)
 * [@xf37](https://github.com/xf37/)
