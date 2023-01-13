@@ -1,5 +1,5 @@
 {% set name = "spopt" %}
-{% set version = "0.4.1" %}
+{% set version = "0.5.0rc2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e2e79d7e1d4d5a3b287c6b014d5b5ea2bc31cf73b2d3256ee588f117b50b03ef
+  sha256: 47c258dda26c9f51e14edec6d0d73d218c6143a5a6d434a6e1fdca20b9c7cf0a
 
 build:
   noarch: python
@@ -20,15 +20,16 @@ requirements:
     - pip
   run:
     - python >=3
-    - geopandas >=0.7
+    - geopandas >=0.10.0
     - libpysal
     - networkx
-    - numpy >=1.3
-    - pandas >=1.0
+    - numpy >=1.21
+    - pandas >=1.0.5
     - pulp
     - scikit-learn >=0.22
-    - scipy >=0.11
+    - scipy >=1.3.2
     - spaghetti
+    - tqdm >=4.27.0
 
 test:
   imports:
