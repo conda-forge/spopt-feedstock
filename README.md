@@ -1,11 +1,11 @@
-About spopt
-===========
+About spopt-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/spopt-feedstock/blob/main/LICENSE.txt)
 
 Home: http://pysal.org/
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/spopt-feedstock/blob/main/LICENSE.txt)
 
 Summary: spopt: Spatial Optimization
 
@@ -153,5 +153,6 @@ Feedstock Maintainers
 * [@gegen07](https://github.com/gegen07/)
 * [@jGaboardi](https://github.com/jGaboardi/)
 * [@knaaptime](https://github.com/knaaptime/)
+* [@martinfleis](https://github.com/martinfleis/)
 * [@xf37](https://github.com/xf37/)
 
