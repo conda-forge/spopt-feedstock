@@ -153,5 +153,6 @@ Feedstock Maintainers
 * [@gegen07](https://github.com/gegen07/)
 * [@jGaboardi](https://github.com/jGaboardi/)
 * [@knaaptime](https://github.com/knaaptime/)
+* [@martinfleis](https://github.com/martinfleis/)
 * [@xf37](https://github.com/xf37/)
 
