@@ -24,7 +24,7 @@ requirements:
     - python >=3.10
     - geopandas >=0.12.0
     - libpysal >=4.6
-    - mapclassify>=2.5
+    - mapclassify >=2.5
     - networkx >=2.7
     - numpy >=1.22
     - pandas >=1.4, !=1.5.0
