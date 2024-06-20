@@ -1,5 +1,5 @@
 {% set name = "spopt" %}
-{% set version = "0.6.0" %}
+{% set version = "0.6.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 1edf615a8ab1bbae3881c742083e20f18d24724947e84bf2dd12ec38510bcf3a
+  sha256: 22fd867543cd04325d11d7d75a68dcdf8fba4c2c2fe959ba60ccef13dc54acf7
 
 build:
   noarch: python
