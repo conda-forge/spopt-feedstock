@@ -156,6 +156,3 @@ Feedstock Maintainers
 * [@martinfleis](https://github.com/martinfleis/)
 * [@xf37](https://github.com/xf37/)
 
-
-<!-- dummy commit to enable rerendering -->
-
