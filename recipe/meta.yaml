@@ -12,7 +12,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
@@ -23,19 +23,19 @@ requirements:
     - setuptools-scm >=6.2
   run:
     - python >={{ python_min }}
-    - geopandas >=0.12.0
-    - libpysal >=4.6
-    - mapclassify >=2.5
-    - networkx >=2.7
-    - numpy >=1.22
-    - pandas >=1.4, !=1.5.0
-    - pointpats >=2.3.0
-    - pulp >=2.7
-    - scikit-learn >=1.1
-    - scipy >=1.8
-    - shapely >=2.0.1
-    - spaghetti >=1.6.4
-    - tqdm >=4.63.0
+    - geopandas >=0.14.0
+    - libpysal >=4.10.0
+    - mapclassify >=2.7.0
+    - networkx >=3.2
+    - numpy >=1.26.0
+    - pandas >=2.1.0
+    - pointpats >=2.4.0
+    - pulp >=2.8
+    - scikit-learn >=1.4.0
+    - scipy >=1.12.0
+    - shapely >=2.1.1
+    - spaghetti >=1.7.4
+    - tqdm >=4.66.0
 
 test:
   imports:
