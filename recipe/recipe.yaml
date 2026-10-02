@@ -1,8 +1,9 @@
 schema_version: 1
 
 context:
+  python_min: "3.12"
   name: spopt
-  version: "0.7.0"
+  version: "0.8.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +11,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: ed599b8c0e219682e48e85852b615dbc6f122ef2907d73c11894ad3ffdb39d47
+  sha256: 4c74d8675d0d178cf0ae217315cbfd2c2259808298faea271909f30d154bdc9b
 
 build:
-  number: 2
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
@@ -25,19 +26,19 @@ requirements:
     - setuptools-scm >=6.2
   run:
     - python >=${{ python_min }}
-    - geopandas >=0.14.0
-    - libpysal >=4.10.0
-    - mapclassify >=2.7.0
-    - networkx >=3.2
-    - numpy >=1.26.0
-    - pandas >=2.1.0
-    - pointpats >=2.4.0
-    - pulp >=2.8
-    - scikit-learn >=1.4.0
-    - scipy >=1.12.0
+    - geopandas >=1.1.0
+    - libpysal >=4.12.0
+    - mapclassify >=2.9.0
+    - networkx >=3.4
+    - numpy >=2.0.0
+    - pandas >=2.3.0
+    - pointpats >=2.5.2
+    - pulp >=3.2,<4
+    - scikit-learn >=1.5.0
+    - scipy >=1.14.0
     - shapely >=2.1.1
     - spaghetti >=1.7.4
-    - tqdm >=4.66.0
+    - tqdm >=4.67.0
 
 tests:
   - python:
