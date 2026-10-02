@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: spopt
-  version: "0.7.0"
+  version: "0.8.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: ed599b8c0e219682e48e85852b615dbc6f122ef2907d73c11894ad3ffdb39d47
+  sha256: 4c74d8675d0d178cf0ae217315cbfd2c2259808298faea271909f30d154bdc9b
 
 build:
-  number: 2
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
