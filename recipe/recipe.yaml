@@ -1,7 +1,6 @@
 schema_version: 1
 
 context:
-  python_min: "3.11"
   name: spopt
   version: "0.7.0"
 
@@ -45,7 +44,9 @@ tests:
       imports:
         - ${{ name }}
       pip_check: true
-      python_version: ${{ python_min }}
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
 
 about:
   license: BSD-3-Clause
